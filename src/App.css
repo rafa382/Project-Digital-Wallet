@@ -1,0 +1,149 @@
+body {
+  background-color: rgb(15, 15, 15);
+}
+
+.login-cart {
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(52, 190, 39), rgb(23, 122, 36));
+  border-radius: 50px;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  margin-left: 29%;
+  margin-right: 50%;
+  margin-top: 10%;
+  width: 600px;
+}
+
+.money-img {
+  display: inline;
+  height: 35px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.money-img-wallet {
+  display: inline;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.inputs {
+  border-radius: 5px;
+  border-style: none;
+  height: 30px;
+  margin-bottom: 30px;
+  margin-left: 4%;
+  width: 550px;
+}
+
+.login-button {
+  background-color: rgb(31, 34, 32);
+  border: none;
+  border-radius: 0 10px;
+  color: white;
+  font-weight: 900;
+  height: 40px;
+  margin-left: 40%;
+  width: 130px;
+}
+
+.text-login {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(52, 190, 39), rgb(23, 122, 36));
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.despesa-total {
+  display: flex;
+}
+
+.form {
+  align-items: center;
+  background-color: rgb(51, 48, 48);
+  color: white;
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+}
+
+.inputs-form {
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  font-weight: 900;
+  height: 25px;
+  margin-top: 5%;
+  width: 120px;
+}
+
+.btn-adicionar {
+  background-color: rgb(8, 117, 13);
+  border: none;
+  border-radius: 0 10px;
+  color: white;
+  font-weight: 900;
+  height: 35px;
+}
+
+.header-table-div {
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(52, 190, 39), rgb(23, 122, 36));
+  color: white;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+}
+
+.tr {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  width: 1275px;
+}
+
+.header-th {
+  display: inline;
+  width: 12%;
+}
+
+.body {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-weight: 900;
+  height: 70px;
+  justify-content: center;
+}
+
+.tr-body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 1235px;
+}
+
+.td-body {
+  display: inline;
+  width: 99%;
+}
+
+.body tbody .tr-body {
+  margin-left: 51px;
+}
+
+.login-cart form h1 {
+  margin-left: 190px;
+}
+
+#root div h1 {
+  transform: translateX(-85px) translateY(-4px);
+}
